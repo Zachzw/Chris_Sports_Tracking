@@ -47,7 +47,6 @@ while  count  <= 3:
     count += 1
     continue
 #check to see if all.txt exists, if it does it will delete the file
-import os
 try:
     os.remove('summary.txt')
     print('Removed summary.txt')
